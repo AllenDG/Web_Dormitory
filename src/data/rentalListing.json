@@ -1,0 +1,89 @@
+[
+  {
+    "id": "1",
+    "title": "Living room Sofa",
+    "description": "This sofa is perfect for modern tropical spaces, baroque inspired spaces, earthy toned spaces and for people who love a chic design with a sprinkle of vintage design.",
+    "address": "Dagupan, Pangasinan",
+    "price": 10000,
+    "availablePerson": 4,
+    "imageUrl": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400"
+    ],
+    "amenities": ["Porn Hub"]
+  },
+  {
+    "id": "2",
+    "title": "Bedroom Set",
+    "description": "A beautiful bedroom set that blends modern design with comfort. It’s perfect for minimalist or contemporary styles.",
+    "address": "Dagupan, Pangasinan",
+    "price": 5000,
+    "availablePerson": 7,
+    "imageUrl": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400"
+    ],
+    "amenities": [""]
+  },
+  {
+    "id": "3",
+    "title": "Bedroom Set",
+    "description": "A beautiful bedroom set that blends modern design with comfort. It’s perfect for minimalist or contemporary styles.",
+    "address": "Dagupan, Pangasinan",
+    "price": 3000,
+    "availablePerson": 6,
+    "imageUrl": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400"
+    ],
+    "amenities": [
+      "Wifi / Internet",
+      "Aircon",
+      "Refrigerator",
+      "Kitchen",
+      "Parking",
+      "Elevator",
+      "Study Hub",
+      "Commercial Spaces",
+      "Roof Deck",
+      "Recreational Area"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Bedroom Set",
+    "description": "A beautiful bedroom set that blends modern design with comfort. It’s perfect for minimalist or contemporary styles.",
+    "address": "Dagupan, Pangasinan",
+    "price": 5000,
+    "availablePerson": 7,
+    "imageUrl": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400"
+    ],
+    "amenities": ["Wifi / Internet", "Refrigerator", "Kitchen"]
+  },
+  {
+    "id": "5",
+    "title": "Bedroom Set",
+    "description": "A beautiful bedroom set that blends modern design with comfort. It’s perfect for minimalist or contemporary styles.",
+    "address": "Dagupan, Pangasinan",
+    "price": 5000,
+    "availablePerson": 7,
+    "imageUrl": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400"
+    ],
+    "amenities": [
+      "Wifi / Internet",
+      "Aircon",
+      "Refrigerator",
+      "Kitchen",
+      "Parking",
+      "Elevator",
+      "Study Hub",
+      "Commercial Spaces",
+      "Roof Deck",
+      "Recreational Area"
+    ]
+  }
+]
