@@ -26,7 +26,7 @@ export default function Navbar() {
           </Heading>
         </Link>
       </aside>
-      <Flex align="center">
+      <Flex align="center" gap="10px">
         <Flex display={{ base: "none", md: "flex" }} gap="10px" align="center">
           <NavbarList />
         </Flex>

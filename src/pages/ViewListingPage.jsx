@@ -27,6 +27,7 @@ import { IoHeartOutline, IoShareOutline } from "react-icons/io5";
 import InquireForm from "../components/forms/InquireForm";
 import ScheduleAVisitForm from "../components/forms/ScheduleAVisitForm";
 import rentalListings from "../data/rentalListing.json";
+import Slider from "react-slick";
 
 export default function ViewListingPage() {
   const { id } = useParams();
@@ -38,8 +39,37 @@ export default function ViewListingPage() {
 
   if (!listing) return "We couldn't this listing for you";
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
     <Flex direction="column" minH="100vh" p="20px" bg={bgColor}>
+      {listing.imageUrl.length > 0 ? (
+        <Box mb={6} p={3}>
+          <Slider {...settings}>
+            {listing?.imageUrl.map((item, index) => (
+              <Box key={index} w="100%" h="300px">
+                <img
+                  src={item}
+                  alt={`Listing Image ${index + 1}`}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    borderRadius: "10px",
+                    objectFit: "cover",
+                  }}
+                />
+              </Box>
+            ))}
+          </Slider>
+        </Box>
+      ) : <Text>No images about this listing</Text>}
+
       <Grid templateColumns={{ md: "repeat(3, 1fr)" }} gap={6}>
         <GridItem colSpan={{ base: 1, md: 2 }}>
           <Heading as="h3" size="lg" mb={2}>
@@ -60,16 +90,20 @@ export default function ViewListingPage() {
             Amenities:
           </Text>
 
-          <Wrap gap={6}>
-            {listing?.amenities.map((amenity) => (
-              <WrapItem key={amenity}>
-                <Tag size="lg" borderRadius="full">
-                  <TagLeftIcon as={amenityIcons[amenity]} />
-                  <TagLabel>{amenity}</TagLabel>
-                </Tag>
-              </WrapItem>
-            ))}
-          </Wrap>
+          {listing.amenities.length > 0 ? (
+            <>
+              <Wrap gap={6}>
+                {listing?.amenities.map((amenity) => (
+                  <WrapItem key={amenity}>
+                    <Tag size="lg" borderRadius="full">
+                      <TagLeftIcon as={amenityIcons[amenity]} />
+                      <TagLabel>{amenity}</TagLabel>
+                    </Tag>
+                  </WrapItem>
+                ))}
+              </Wrap>
+            </>
+          ) : <Text>No amenities madamot hehe</Text>}
         </GridItem>
         <GridItem>
           <Flex
@@ -97,12 +131,7 @@ export default function ViewListingPage() {
               </Button>
             </Box>
           </Flex>
-          <Flex
-            px="20px"
-            py="10px"
-            borderWidth={1}
-            borderRadius={20}
-          >
+          <Flex px="20px" py="10px" borderWidth={1} borderRadius={20}>
             <LightMode>
               <Tabs w="100%" isFitted>
                 <TabList mb="1em">

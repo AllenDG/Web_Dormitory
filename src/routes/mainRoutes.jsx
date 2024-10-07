@@ -26,7 +26,7 @@ export const mainRoutes = [
         element: <RegisterPage />,
       },
       {
-        path: "find-rentals/:searchParams",
+        path: "find-rentals",
         element: <FindRentalsPage />,
       },
       {
