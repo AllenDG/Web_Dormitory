@@ -1,6 +1,6 @@
 export const navbarRoutes = [
   {
-    path: "/find-rentals/featured",
+    path: "/find-rentals",
     label: "Find Rentals"
   },
   {

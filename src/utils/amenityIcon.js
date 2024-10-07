@@ -6,6 +6,7 @@ import {
   TbBuildingEstate,
   TbBuildingStore,
   TbCar,
+  TbDog,
   TbElevator,
   TbFridge,
   TbHeart,
@@ -13,7 +14,6 @@ import {
   TbMicrophone,
   TbPool,
   TbToolsKitchen,
-  TbUser,
   TbWifi,
 } from "react-icons/tb";
 
@@ -25,7 +25,6 @@ export const amenityIcons = {
   "Parking": TbCar,
   "Elevator": TbElevator,
   "Study Hub": TbBook,
-  "Porn Hub": TbUser,
   "KTV Room": TbMicrophone,
   "Community Area": TbHeart,
   "Swimming Pool": TbPool,
@@ -34,4 +33,5 @@ export const amenityIcons = {
   "Commercial Spaces": TbBuildingStore,
   "Roof Deck": TbBeach,
   "Recreational Area": TbBuildingEstate,
+  "Pet Friendly": TbDog
 };
